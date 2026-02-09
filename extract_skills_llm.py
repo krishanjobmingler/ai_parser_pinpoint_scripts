@@ -34,7 +34,7 @@ class Skills(BaseModel):
     )
 
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyA_WnC0EE7Kwd8FQqo9SpVjdpUy0zU-nh8"
+    os.environ["GOOGLE_API_KEY"] = ""
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
